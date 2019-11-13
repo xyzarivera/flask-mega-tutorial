@@ -6,6 +6,7 @@ The Flask Mega-Tutorial by Miguel Grinberg -  https://blog.miguelgrinberg.com/po
 2. Install Flask
 3. Create "Hello, World" Flask application
 4. Creating environment variables
+5. Run application
 
 ## Create Virtual Environment
 
@@ -90,4 +91,22 @@ from app import app
 
 "The Flask application instance is called app and is a member of the app package. The from app import app statement imports the app variable that is a member of the app package."
 
-##
+## Creating Environment Variables
+
+Install python-dotenv
+
+```shell
+pip install python-dotenv
+```
+
+Create .flaskenv in top-level directory
+
+```.flaskenv
+FLASK_APP=main.py
+```
+
+## Run Application
+
+```shell
+flask run
+```
