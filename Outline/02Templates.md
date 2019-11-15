@@ -3,6 +3,10 @@
 The Flask Mega-Tutorial by Miguel Grinberg -  https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ii-templates
 
 1. Create Templates folder in app package
+2. Dynamic Content
+3. Conditional Statements
+4. Loops
+5. Template Inheritance
 
 ## Templates
 
